@@ -9,7 +9,7 @@
         <choice_table/>
         <create_roles/>
         <default_html_value/>
-        <default_value/>
+        <default_value>2</default_value>
         <delete_roles/>
         <delivery_plan/>
         <description/>

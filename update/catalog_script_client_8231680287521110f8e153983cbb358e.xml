@@ -15,26 +15,25 @@
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>GlideForm - addOption (at index)</name>
+        <name>GlideForm - showFieldMsg</name>
         <order/>
         <script><![CDATA[function onLoad() {
    //Type appropriate comment here, and begin script below
-	g_form.addFormMessage('A choice has been added at index 0 of the Select Box');
-	g_form.addOption('select_box', '5', 'Added by client script at index 0', 0);
+	g_form.showFieldMsg('multi_line_text', 'This is from showFieldMsg');
    
 }]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-09-15 20:29:37</sys_created_on>
+        <sys_created_on>2022-10-03 19:55:24</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>d24dbb8087c61110f8e153983cbb3561</sys_id>
-        <sys_name>GlideForm - addOption (at index)</sys_name>
+        <sys_id>8231680287521110f8e153983cbb358e</sys_id>
+        <sys_name>GlideForm - showFieldMsg</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name>catalog_script_client_d24dbb8087c61110f8e153983cbb3561</sys_update_name>
+        <sys_update_name>catalog_script_client_8231680287521110f8e153983cbb358e</sys_update_name>
         <table/>
         <type>onLoad</type>
         <ui_type>10</ui_type>
